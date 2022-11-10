@@ -5,6 +5,12 @@
     "monolog/monolog": {
         "version": "2.3.5"
     },
+    "paragonie/random_compat": {
+        "version": "v9.99.100"
+    },
+    "paragonie/sodium_compat": {
+        "version": "v1.19.0"
+    },
     "psr/cache": {
         "version": "3.0.0"
     },
@@ -107,6 +113,12 @@
             "src/Controller/.gitignore",
             "src/Kernel.php"
         ]
+    },
+    "symfony/http-client": {
+        "version": "v6.1.7"
+    },
+    "symfony/http-client-contracts": {
+        "version": "v3.1.1"
     },
     "symfony/http-foundation": {
         "version": "v6.0.2"
