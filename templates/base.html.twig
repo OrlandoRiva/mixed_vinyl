@@ -55,6 +55,13 @@
         </nav>
         <!-- End Main Navigation -->
 
+        {# Flash Messages #}
+        {% for message in app.flashes('success') %}
+            <div class="alert alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+
         {% block body %}{% endblock %}
 
         <!-- Footer -->
